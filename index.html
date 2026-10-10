@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ticket-Demo</title>
+
+<style>
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 12px;
+    background: #f2f4f7;
+    font-family: Arial, sans-serif;
+    color: #17212f;
+}
+
+.container {
+    max-width: 760px;
+    margin: auto;
+}
+
+.notice {
+    padding: 12px;
+    margin-bottom: 16px;
+    text-align: center;
+    background: #fff3cd;
+    color: #664d03;
+    border: 2px solid #e4b94f;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.header {
+    padding: 16px 8px;
+    background: white;
+    border-bottom: 4px solid #e52329;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.subtitle {
+    font-size: 15px;
+    color: #596574;
+    font-weight: normal;
+}
+
+.success {
+    text-align: center;
+    padding: 20px 5px;
+}
+
+.check {
+    display: inline-flex;
+    width: 78px;
+    height: 78px;
+    border-radius: 50%;
+    background: #169b50;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    font-size: 48px;
+}
+
+h1 {
+    color: #159447;
+    font-size: clamp(25px, 5vw, 40px);
+    margin: 10px 0;
+}
+
+.description {
+    font-size: 19px;
+    line-height: 1.4;
+}
+
+.ticket-image {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 8px;
+}
+
+.demo-label {
+    text-align: center;
+    margin: 14px 0;
+    padding: 14px;
+    background: #e1f4e8;
+    color: #176b39;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+</style>
+</head>
+
+<body>
+<div class="container">
+
+    <div class="notice">
+   GÜLTIGER FAHRSCHEIN
+    </div>
+
+    <header class="header">
+        Ticket-Demo
+        <div>
+        </div>
+    </header>
+
+    <section class="success">
+        <div class="check">✓</div>
+        <h1>Demo erfolgreich angezeigt!</h1>
+        <div class="description">
+        </div>
+    </section>
+
+    <img
+        class="ticket-image"
+        src="1000008680.png"
+        
+    >
+
+    <div class="demo-label">
+      FAHRSCHEIN GÜLTIG
+    </div>
+
+</div>
+</body>
+</html>
